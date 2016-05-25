@@ -1,0 +1,15 @@
+<div id="Stats">
+    <div class="StatsItem" ng-repeat="item in statItems track by $index">
+        <div class="StatsPic">
+            <img ng-src="{{item.image}}" />
+        </div>
+        <div class="StatsTitle">{{item.title}}</div>
+        <div class="ProgBar">
+            <div ng-style="item.progStyle">&nbsp;</div>
+        </div>
+        <div class="StatData" ng-style="item.dataStyle">
+            <span>{{item.percentOrScore}}</span><span ng-if="item.isPercent" class="Percent">%</span>
+        </div>
+        <div class="Caption" ng-style="item.dataStyle">{{item.caption}}</div>
+    </div>
+</div>

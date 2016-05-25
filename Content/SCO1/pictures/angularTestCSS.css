@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+
+/*************************** MAIN ***************************/
+#MainWrapper {
+    /* DISPLAY */
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    
+    /* BOX MODEL */
+    max-width: 800px;
+    margin: 0 auto;
+    
+    /* TEXT */
+    font-family: 'Oswald', sans-serif;    
+}
+
+#AvatarName {
+    /* DISPLAY */
+    -webkit-flex: 1 1 0px;
+    flex: 1 1 0px;
+    
+    /* TEXT */
+    font-size: 55px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height:90px;
+}
+
+#AvatarName::first-letter{
+    /* TEXT */
+    text-transform: uppercase;
+}
+
+#StatsContainer {
+    /* DISPLAY */
+    -webkit-flex: 5 1 0px;
+    flex: 5 1 0px;
+    order: 2;
+    /* BOX MODEL */
+    min-width: 240px;
+}
+
+#Stats {
+    /* DISPLAY */
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 3 1 0px;
+    flex: 3 1 0px;
+}
+
+.StatsItem {
+    text-align: center;
+    -webkit-flex: 1 1 0px;
+    flex: 1 1 0px;
+}
+
+.StatsPic img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.StatsTitle {
+    font-size: 23px;
+    line-height: 31px;
+    margin-top: -2%;
+}
+
+.ProgBar {
+    width: 85%;
+    min-height: 1px;
+    height: 8px;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.ProgBar div {
+    height: 100%;
+}
+
+.StatData {
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.Percent {
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    font-stretch: ultra-condensed;
+}
+
+#Badges {
+    /* DISPLAY */
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-basis: 100%;
+    flex-basis: 100%;
+    order: 3;
+    justify-content: center;
+    
+    /* BOX MODEL */
+    padding: 10px;
+}
+
+#Badges h2 {
+    margin: 0;
+    flex-basis: 100%;
+}
+
+#Badges img {
+    margin: 15px;
+    border: 5px solid lightgray;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+/*************************** AVATAR SELECTION ***************************/
+#Title {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.FormTitle {
+    margin-bottom: 0px;
+    display: inline;
+}
+
+#Caption {
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+img.image_picker_image {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.thumbnail {
+    max-width: 100px;
+    height: 175px;
+}

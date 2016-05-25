@@ -1,0 +1,1 @@
+<div>{{avatarInfo.name}}</div>

@@ -1,0 +1,152 @@
+{ "races": [
+    {
+        "name":"Dragon",
+        "id":0,
+        "img":"dragon"
+    },
+    { 
+        "name":"Male Knight",
+        "id":1, 
+        "img":"knightM"
+    },
+    { 
+        "name":"Butterfly",
+        "id":2, 
+        "img":"butterfly"
+    },
+    { 
+        "name":"Male Chef",
+        "id":3, 
+        "img":"chefM"
+    },
+    { 
+        "name":"Female Chef",
+        "id":4, 
+        "img":"chefF"
+    },
+    { 
+        "name":"Male Chemistry Wizard",
+        "id":5, 
+        "img":"chemWizardM"
+    },
+    { 
+        "name":"Female Detective",
+        "id":6, 
+        "img":"detectiveF"
+    },
+    { 
+        "name":"Male Detective",
+        "id":7, 
+        "img":"detectiveM"
+    },
+    { 
+        "name":"Female Knight",
+        "id":8, 
+        "img":"knightF"
+    },
+    { 
+        "name":"Female Mad Scientist",
+        "id":9, 
+        "img":"madScientistF"
+    },
+    { 
+        "name":"Male Mad Scientist",
+        "id":10, 
+        "img":"madScientistM"
+    },
+    { 
+        "name":"Male Pirate",
+        "id":11, 
+        "img":"pirateM"
+    },
+    { 
+        "name":"Female Pirate",
+        "id":12, 
+        "img":"pirateF"
+    },
+    { 
+        "name":"Male Superhero",
+        "id":13, 
+        "img":"superheroM"
+    },
+    { 
+        "name":"Female Superhero",
+        "id":14, 
+        "img":"superheroF"
+    },
+    { 
+        "name":"Female Time Traveler",
+        "id":15, 
+        "img":"timeTravelerF"
+    },
+    { 
+        "name":"Male Time Traveler",
+        "id":16, 
+        "img":"timeTravelerM"
+    },
+    { 
+        "name":"Tree",
+        "id":17, 
+        "img":"tree"
+    }
+],
+ "numberOfLevels": 12,
+ "useBadges": true,
+ "badges": [
+   {
+      "categoryName":"",
+      "marks": [
+      {
+         "percent": 100.0001,
+         "pic":"homework100.png"
+      },{
+         "percent": 90,
+         "pic":"homework90.png"
+      },{
+         "percent": 80,
+         "pic":"homework80.png"
+      }]
+   }, {
+      "categoryName":"",
+      "marks" : [
+      {
+         "percent": 100,
+         "pic":"reading100.png"
+      },{
+         "percent": 90,
+         "pic":"reading90.png"
+      },{
+         "percent": 80,
+         "pic":"reading80.png"
+      }]
+   }, {
+      "categoryName":"",
+      "marks" : [
+      {
+         "percent": 100,
+         "pic":"lab100.png"
+      }]
+   }, {
+      "categoryName":"",
+      "percent": 10,
+      "pic":"lab_grit10.png"
+   }, {
+      "categoryName":"",
+      "marks" : [
+      {
+         "percent": 100.0001,
+         "pic":"exam100.png"
+      },{
+         "percent": 90,
+         "pic":"exam90.png"
+      },{
+         "percent": 80,
+         "pic":"exam80.png"
+      }]
+   }, {
+      "categoryName": "",
+      "percent": 20,
+      "pic":"exam_grit20.png"
+   }
+]
+}
